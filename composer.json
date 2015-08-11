@@ -1,7 +1,7 @@
 {
     "name": "rafatz/hanatap",
     "description": "A HANATrial Cloud Platform Authentication proxy written in PHP.",
-    "homepage": "http://github.com/rafatz/hanatap",
+    "homepage": "https://github.com/rafatzbr/hanatap.git",
     "license": "MIT",
     "keywords": ["hana", "hanatrial", "authentication", "request", "hcp", "cloud", "odata", "hanaxs", "xsodata"],
     "authors": [
@@ -13,7 +13,7 @@
     "repositories": [
         {
         "type": "git",
-        "url": "https://github.com/rafatz/hanatrial-auth-proxy-php.git"
+        "url": "https://github.com/rafatzbr/hanatap.git"
         }
     ],
     "require": {
@@ -21,6 +21,6 @@
     },
     "type": "library",
     "autoload": {
-        "psr-0": {"HANATAP": "library/"}
+        "psr-4": {"HANATAP\\": "library/"}
     }
 }
